@@ -34,11 +34,11 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Resume',
-            href: 'https://instagram.com/'
+            href: 'file:///C:/Users/HP%20Victus/Desktop/Sprint/Sprint%209/CV%20DATA%20DACR_eng.pdf'
         },
         {
             text: 'CV',
-            href: 'https://instagram.com/'
+            href: 'file:///C:/Users/HP%20Victus/Desktop/Sprint/Sprint%209/Diego_Contreras_CV.pdf'
         }
     ],
     hero: {
