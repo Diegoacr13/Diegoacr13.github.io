@@ -1,6 +1,5 @@
 import avatar from '../assets/images/foto-perfil.png';
 import hero from '../assets/images/foto-perfil.png';
-import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
     website: 'https://diegocontreras1305.github.io',
