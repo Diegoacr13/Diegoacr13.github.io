@@ -9,7 +9,7 @@ const siteConfig: SiteConfig = {
         alt: 'Ethan Donovan'
     },
     title: 'Diego A. Contreras Robles',
-    subtitle: 'Analista de Datos | Project Manager | Optimización de Procesos y Visualización de Información | Dashboards',
+    subtitle: 'Data Analyst | Project Manager | Process Optimization and Information Visualization | Dashboards',
     description: 'Portafolio de Diego A. Contreras Robles — Analista de Datos y Project Manager especializado en optimización de procesos, dashboards y visualización de información.',
     image: {
         src: '/dante-preview.jpg',
