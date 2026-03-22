@@ -44,6 +44,10 @@ const siteConfig: SiteConfig = {
         {
             text: 'Resume',
             href: 'https://instagram.com/'
+        },
+        {
+            text: 'CV',
+            href: 'https://instagram.com/'
         }
     ],
     hero: {
