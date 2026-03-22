@@ -47,15 +47,10 @@ const siteConfig: SiteConfig = {
 
         skills:[
             "Python: Data cleaning, analysis, and visualization using libraries such as Pandas, NumPy, Matplotlib, and Seaborn",
-            "",
             "SQL: Writing complex queries, database management, and data extraction from relational databases",
-            "",
             "Excel: Advanced formulas, pivot tables, VLOOKUP, data visualization, and dashboard creation",
-            "",
             "Data Visualization: Creating compelling visual stories to communicate insights effectively",
-            "",
             "Oracle: Advance, tables, data visualization",
-            "",
             "Problem-Solving: Strong analytical thinking with attention to detail and accuracy"
         ],
         image: {
