@@ -12,8 +12,10 @@ const { title, image, text, actions, skills } = Astro.props;
 {
   (title || image?.src || text || (actions && actions.length > 0)) && (
     <section class="mb-16 flex w-full flex-col gap-8 sm:mb-24 lg:flex-row lg:items-center lg:gap-12">
+      
       <!-- Bloque de texto -->
       <div class="flex-1 min-w-0">
+        
         {title && (
           <h1 class="font-serif text-3xl leading-tight font-medium sm:text-5xl sm:leading-tight whitespace-nowrap">
             {title}
@@ -27,19 +29,33 @@ const { title, image, text, actions, skills } = Astro.props;
           />
         )}
 
+        {/* 🔥 SKILLS CON ICONOS */}
         {skills && (
           <div class="mt-8">
-            <h3 class="text-lg font-semibold mb-3">
+            <h3 class="text-lg font-semibold mb-4">
               Skills
             </h3>
 
-            <ul class="list-disc pl-5 space-y-2 text-sm sm:text-base">
+            <ul class="space-y-4">
               {skills.map((skill) => (
-                <li>
-                  {skill}
+                <li class="flex items-start gap-3">
+                  
+                  {/* Icono */}
+                  <span class="text-xl">
+                    {skill.icon}
+                  </span>
+
+                  {/* Texto */}
+                  <div>
+                    <p class="font-medium">
+                      {skill.name}
+                    </p>
+                    <p class="text-sm text-gray-600">
+                      {skill.desc}
+                    </p>
+                  </div>
+
                 </li>
-              ))}
-            </ul>
               ))}
             </ul>
           </div>
@@ -52,6 +68,7 @@ const { title, image, text, actions, skills } = Astro.props;
             ))}
           </div>
         )}
+
       </div>
 
       <!-- Bloque de imagen -->
@@ -72,6 +89,7 @@ const { title, image, text, actions, skills } = Astro.props;
           )}
         </div>
       )}
+
     </section>
   )
 }
