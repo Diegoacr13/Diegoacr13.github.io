@@ -38,16 +38,12 @@ const siteConfig: SiteConfig = {
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Linkedin',
+            href: 'https://www.linkedin.com/in/diego-abraham-contreras-robles-677619252/'
         },
         {
-            text: 'Instagram',
+            text: 'Resume',
             href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
         }
     ],
     hero: {
