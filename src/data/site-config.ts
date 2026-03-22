@@ -46,11 +46,11 @@ const siteConfig: SiteConfig = {
         text: "I'm Diego A. Contreras, Licensed architect and data analyst specialized in project management and process optimization.\n Expert in information visualization and team coordination, applying project management methodologies in construction and technology.\n Led the management of the Cancún–Nichupté bridge project, implementing dashboards and communication plans that improved collaboration and accelerated construction timelines.",
 
         skills:[
-            "- Data Analysis",
-            "- Project Management",
-            "- Process Optimization",
-            "- Information Visualization",
-            "- Dashboard Design"
+            "Data Analysis",
+            "Project Management",
+            "Process Optimization",
+            "Information Visualization",
+            "Dashboard Design"
         ],
         image: {
             src: "/foto-perfil.png",
