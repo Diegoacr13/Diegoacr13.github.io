@@ -38,10 +38,10 @@ const { title, image, text, actions } = Astro.props;
       {image?.src && (
         <div class="flex-1 flex justify-center">
           <CustomImage
-            class="w-80 h-80 object-cover shadow-lg mx-auto"
+            class="w-64 h-auto rounded-full shadow-lg"
             {...image}
-            widths={[300, 600, 900]}
-            sizes="400px"
+            widths={[200, 400, 600]}
+            sizes="300px"
             fetchpriority="high"
             loading="eager"
           />
