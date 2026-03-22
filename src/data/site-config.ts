@@ -2,7 +2,7 @@ import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
     website: 'https://diegocontreras1305.github.io',
-    
+
     title: 'Diego A. Contreras Robles',
     subtitle: 'Data Analyst | Project Manager | Process Optimization and Information Visualization | Dashboards',
     description: 'Portafolio de Diego A. Contreras Robles — Analista de Datos y Project Manager especializado en optimización de procesos, dashboards y visualización de información.',
@@ -38,11 +38,11 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Resume',
-            href: 'https://instagram.com/'
+            href: 'file:///C:/Users/HP%20Victus/Desktop/Sprint/Sprint%209/CV%20DATA%20DACR_eng.pdf'
         },
         {
             text: 'CV',
-            href: 'https://instagram.com/'
+            href: 'file:///C:/Users/HP%20Victus/Desktop/Sprint/Sprint%209/Diego_Contreras_CV.pdf'
         }
     ],
     hero: {
