@@ -10,7 +10,6 @@ const siteConfig: SiteConfig = {
     },
     title: 'Diego A. Contreras Robles',
     subtitle: 'Analista de Datos | Project Manager | Optimización de Procesos y Visualización de Información | Dashboards',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
