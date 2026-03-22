@@ -52,10 +52,6 @@ const siteConfig: SiteConfig = {
             src: '/foto-perfil.png',
             alt: 'Foto de Diego A. Contreras Robles'
          },
-    actions: [
-                 { text: 'Contáctame', href: '/contact' }
-        ]
-
         },
         actions: [
             {
