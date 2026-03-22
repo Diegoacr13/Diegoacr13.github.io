@@ -11,4 +11,4 @@ _Email:_
 Feel free to drop me an email at [diegoa.contreras1305@gmail.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
 
 _Social Media:_
-Connect with me on social media as well. Find me on [linkedin]() or [Github]()]
+Connect with me on social media as well. Find me on [linkedin](https://www.linkedin.com/in/diego-abraham-contreras-robles-677619252/) or [Github](https://github.com/Diegoacr13)
