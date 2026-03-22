@@ -12,10 +12,10 @@ const { title, image, text, actions } = Astro.props;
 {
   (title || image?.src || text || (actions && actions.length > 0)) && (
     <section class="mb-16 flex w-full flex-col gap-8 sm:mb-24 lg:flex-row lg:items-center lg:gap-12">
-      <!-- Texto a la izquierda -->
+      <!-- Bloque de texto -->
       <div class="flex-1">
         {title && (
-          <h1 class="font-serif text-3xl font-medium sm:text-5xl whitespace-nowrap">
+          <h1 class="font-serif text-3xl leading-tight font-medium sm:text-5xl sm:leading-tight">
             {title}
           </h1>
         )}
@@ -34,14 +34,14 @@ const { title, image, text, actions } = Astro.props;
         )}
       </div>
 
-      <!-- Imagen a la derecha -->
+      <!-- Bloque de imagen -->
       {image?.src && (
         <div class="flex-1 flex justify-center">
           <CustomImage
-            class="w-80 h-80 object-cover shadow-lg mx-auto"
+            class="w-64 h-auto rounded-full shadow-lg"
             {...image}
-            widths={[300, 600, 900]}
-            sizes="400px"
+            widths={[200, 400, 600]}
+            sizes="300px"
             fetchpriority="high"
             loading="eager"
           />
