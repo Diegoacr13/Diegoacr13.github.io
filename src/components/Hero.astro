@@ -6,7 +6,7 @@ import CustomImage from './CustomImage.astro';
 
 type Props = HeroProps;
 
-const { title, image, text, actions } = Astro.props;
+const { title, image, text, actions, skills } = Astro.props;
 ---
 
 {
@@ -19,12 +19,30 @@ const { title, image, text, actions } = Astro.props;
             {title}
           </h1>
         )}
+
         {text && (
           <div
             class="prose sm:prose-lg max-w-none mt-4"
             set:html={marked.parse(text)}
           />
         )}
+
+        {skills && (
+          <div class="mt-8">
+            <h3 class="text-lg font-semibold mb-3">
+              Skills
+            </h3>
+
+            <ul class="flex flex-wrap gap-2">
+              {skills.map((skill) => (
+                <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">
+                  {skill}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
         {actions && actions.length > 0 && (
           <div class="flex flex-wrap gap-4 mt-6">
             {actions.map((action) => (
