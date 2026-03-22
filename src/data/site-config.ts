@@ -47,7 +47,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hi There & Welcome to My Portfolio',
-        text: "I'm Diego Comtreras,Licensed architect and data analyst specialized in project management and process optimization. Expert in information visualization and team coordination, applying project management methodologies in construction and echnology. Led the management of the Cancún–Nichupté bridge project, implementing dashboards and communication plans that improved collaboration and accelerated construction timelines."
+        text: "I'm Diego Comtreras,Licensed architect and data analyst specialized in project management and process optimization. Expert in information visualization and team coordination, applying project management methodologies in construction and echnology. Led the management of the Cancún.Nichupté bridge project, implementing dashboards and communication plans that improved collaboration and accelerated construction timelines."
         image: {
             src: '/foto-perfil.png',
             alt: 'Foto de Diego A. Contreras Robles'
