@@ -12,7 +12,7 @@ const siteConfig: SiteConfig = {
     subtitle: 'Data Analyst | Project Manager | Process Optimization and Information Visualization | Dashboards',
     description: 'Portafolio de Diego A. Contreras Robles — Analista de Datos y Project Manager especializado en optimización de procesos, dashboards y visualización de información.',
     image: {
-        src: '/dante-preview.jpg',
+        src: '/foto perfil.png',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
     },
     headerNavLinks: [
