@@ -3,8 +3,9 @@ import type { SiteConfig } from '../types';
 const siteConfig: SiteConfig = {
     website: 'https://diegocontreras1305.github.io',
     avatar: {
-        src: avatar,
-        alt: 'Ethan Donovan'
+        src: '/foto-perfil.png',
+        alt: 'Foto de Diego A. Contreras Robles'
+
     },
     title: 'Diego A. Contreras Robles',
     subtitle: 'Data Analyst | Project Manager | Process Optimization and Information Visualization | Dashboards',
