@@ -5,7 +5,7 @@ publishDate: 'Jan 03 2024'
 tags:
   - Web
   - Guide
-isFeatured: true
+isFeatured: false
 seo:
   image:
     src: '../../assets/images/post-13.jpg'
