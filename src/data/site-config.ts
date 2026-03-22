@@ -49,7 +49,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hi There & Welcome to My Portfolio',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        text: "I'm Diego A. Contreras, Licensed architect and data analyst specialized in project management and process optimization.\nExpert in information visualization and team coordination, applying project management methodologies in construction and technology.\n Led the management of the Cancún–Nichupté bridge project, implementing dashboards and communication plans that improved collaboration and accelerated construction timelines.\n.",
         image: {
             src: "/foto-perfil.png",
             alt: 'Foto Diego A. Contreras Robles'
