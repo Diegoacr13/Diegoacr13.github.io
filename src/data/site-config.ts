@@ -46,12 +46,12 @@ const siteConfig: SiteConfig = {
         text: "I'm Diego A. Contreras, Licensed architect and data analyst specialized in project management and process optimization.\n Expert in information visualization and team coordination, applying project management methodologies in construction and technology.\n Led the management of the Cancún–Nichupté bridge project, implementing dashboards and communication plans that improved collaboration and accelerated construction timelines.",
 
         skills:[
-            "Python: Data cleaning, analysis, and visualization using libraries such as Pandas, NumPy, Matplotlib, and Seaborn",
-            "SQL: Writing complex queries, database management, and data extraction from relational databases",
-            "Excel: Advanced formulas, pivot tables, VLOOKUP, data visualization, and dashboard creation",
-            "Data Visualization: Creating compelling visual stories to communicate insights effectively",
-            "Oracle: Advance, tables, data visualization",
-            "Problem-Solving: Strong analytical thinking with attention to detail and accuracy"
+          { name: "Python", icon: "🐍", desc: "Data cleaning, analysis, visualization (Pandas, NumPy, Matplotlib)" },
+          { name: "SQL", icon: "🗄️", desc: "Complex queries, database management, data extraction" },
+          { name: "Excel", icon: "📊", desc: "Advanced formulas, pivot tables, dashboards" },
+          { name: "Data Visualization", icon: "📈", desc: "Turning data into visual insights" },
+          { name: "Oracle", icon: "🧩", desc: "Database and data handling" },
+          { name: "Problem-Solving", icon: "🧠", desc: "Analytical thinking and accuracy" }
         ],
         image: {
             src: "/foto-perfil.png",
