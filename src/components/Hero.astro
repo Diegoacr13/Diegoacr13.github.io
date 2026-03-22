@@ -15,7 +15,7 @@ const { title, image, text, actions } = Astro.props;
       <!-- Bloque de texto -->
       <div class="flex-1">
         {title && (
-          <h1 class="font-serif text-3xl leading-tight font-medium sm:text-5xl sm:leading-tight">
+          <h1 class="font-serif text-3xl font-medium sm:text-5xl whitespace-nowrap">
             {title}
           </h1>
         )}
@@ -40,8 +40,8 @@ const { title, image, text, actions } = Astro.props;
           <CustomImage
             class="w-80 h-80 object-cover shadow-lg mx-auto"
             {...image}
-            widths={[200, 400, 600]}
-            sizes="300px"
+            widths={[300, 600, 900]}
+            sizes="400px"
             fetchpriority="high"
             loading="eager"
           />
