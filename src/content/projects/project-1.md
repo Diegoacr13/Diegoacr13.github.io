@@ -40,8 +40,9 @@ The results provide actionable findings that support the design of a strong valu
 ## Results
 
 **Books published after 2000**  
+```text 
 819
-
+```
 **Reviews and average rating per book**
 ```text 
 
@@ -56,8 +57,12 @@ book_id | title                                          | num_reviews | avg_rat
 303     | Harvesting the Heart                           | 2           | 1.50
 
 ```
+**Author with highest average rating (≥50 ratings)**  
+```text 
+Diana Gabaldon – 4.3 average rating (50 ratings)
+```
 
-## Final Conclusion
+## Conclusion
 
 Modern catalog: 819 books published after 2000 ensure relevance and attractiveness.
 
@@ -86,9 +91,4 @@ Encouraging engaged users to enrich the collective experience
 - Backend: Firebase for real-time data synchronization and user authentication.
 - Database: Firestore for scalable and flexible data storage.
 - AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
-
-## Outcome
-
-EcoBuddy has successfully created a community of environmentally conscious individuals who actively participate in sustainable living practices. The app not only educates and motivates users but also provides tangible rewards for their commitment to a greener lifestyle, fostering a positive impact on the environment.
-
 
