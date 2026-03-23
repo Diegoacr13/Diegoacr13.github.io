@@ -25,9 +25,11 @@ The results provide actionable findings that support the design of a strong valu
 
 ## Objectives
 
-1. Develop a user-friendly mobile app that motivates individuals to adopt sustainable practices in their daily lives.
-2. Utilize gamification elements to make sustainable living fun and interactive.
-3. Provide educational resources and personalized challenges to empower users to make informed eco-conscious decisions.
+1. Count the number of books published after January 1, 2000.  
+2. Calculate the number of user reviews and the average rating for each book.  
+3. Identify the publisher with the largest number of books over 50 pages.  
+4. Find the author with the highest average rating (only considering books with at least 50 ratings).  
+5. Determine the average number of text reviews among users who rated more than 50 books.  
 
 ## Features
 
