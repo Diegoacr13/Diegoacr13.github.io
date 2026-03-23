@@ -43,7 +43,7 @@ The results provide actionable findings that support the design of a strong valu
 819
 
 **Reviews and average rating per book**
-
+´´´
 book_id | title                                          | num_reviews | avg_rating
 -----------------------------------------------------------------------------------
 86      | Arrows of the Queen (Heralds of Valdemar #1)   | 2           | 5.00
@@ -53,7 +53,7 @@ book_id | title                                          | num_reviews | avg_rat
 136     | Captivating: Unveiling the Mystery of a Woman… | 2           | 5.00
 ...
 303     | Harvesting the Heart                           | 2           | 1.50
-
+´´´
 
 ## Final Conclusion
 
