@@ -40,7 +40,6 @@ The results provide actionable findings that support the design of a strong valu
 ## Results
 
 **Books published after 2000**  
-```text
 819
 
 **Reviews and average rating per book**
@@ -55,6 +54,18 @@ book_id | title                                          | num_reviews | avg_rat
 ...
 303     | Harvesting the Heart                           | 2           | 1.50
 
+
+## Final Conclusion
+
+Modern catalog: 819 books published after 2000 ensure relevance and attractiveness.
+
+Ratings & reviews: Titles range from perfect scores (5.0) to low ratings (1.5–2.0), enabling segmentation and recommendation strategies.
+
+Publisher dominance: Penguin Books leads with 42 substantial publications, a strategic partner for catalog enrichment.
+
+Author insight: Diana Gabaldon stands out with high ratings and strong reader engagement.
+
+User behavior: Heavy raters contribute ~24 reviews each, providing valuable qualitative feedback and strengthening community interaction.
 
 ## Features
 
@@ -94,8 +105,4 @@ book_id | title                                          | num_reviews | avg_rat
 
 EcoBuddy has successfully created a community of environmentally conscious individuals who actively participate in sustainable living practices. The app not only educates and motivates users but also provides tangible rewards for their commitment to a greener lifestyle, fostering a positive impact on the environment.
 
-## Client Testimonial
 
-> We couldn't be happier with the results delivered by Ethan Donovan. From the initial concept discussions to the final product, their responsiveness and collaborative approach were impressive. Our startup's website now stands out, thanks to their creative input and commitment to excellence.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
