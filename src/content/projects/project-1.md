@@ -1,7 +1,7 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: 'Jan 02 2024'
+title: 'SQL Analysis – Online Book Service'
+description: During the COVID-19 pandemic, online book services grew rapidly as people spent more time at home reading.This project analyzes one such service’s database to generate insights that could support a new product value proposition
+publishDate: 'Jan 2026'
 isFeatured: true
 seo:
   image:
@@ -11,10 +11,17 @@ seo:
 
 ![Project preview](../../assets/images/project-1.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
-
 **Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+The rapid growth of online book services during the COVID-19 pandemic highlighted the importance of data-driven strategies to improve user experience and strengthen catalog offerings.  
+This project focuses on analyzing the database of an online book platform to uncover insights about publishing trends, author performance, user behavior, and community engagement.  
+
+By connecting directly to a PostgreSQL database and leveraging Python with Pandas and SQLAlchemy, the analysis explores key questions such as:  
+- How modern and relevant is the catalog?  
+- Which publishers and authors have the greatest impact?  
+- What patterns emerge in ratings and reviews?  
+- How do the most active users contribute to the community?  
+
+The results provide actionable findings that support the design of a strong value proposition, combining a modern catalog, trusted publishers and authors, and an engaged user base.
 
 ## Objectives
 
