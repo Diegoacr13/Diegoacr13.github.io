@@ -37,6 +37,25 @@ The results provide actionable findings that support the design of a strong valu
 - Wrote SQL queries for each analytical task.  
 - Used **Pandas** in Jupyter Notebook to store and display query results. 
 
+## Results
+
+**Books published after 2000**  
+```text
+819
+
+**Reviews and average rating per book**
+
+book_id | title                                          | num_reviews | avg_rating
+-----------------------------------------------------------------------------------
+86      | Arrows of the Queen (Heralds of Valdemar #1)   | 2           | 5.00
+901     | The Walking Dead Book One                      | 2           | 5.00
+390     | Light in August                                | 2           | 5.00
+972     | Wherever You Go There You Are                  | 2           | 5.00
+136     | Captivating: Unveiling the Mystery of a Woman… | 2           | 5.00
+...
+303     | Harvesting the Heart                           | 2           | 1.50
+
+
 ## Features
 
 1. **EcoScore and Challenges:**
