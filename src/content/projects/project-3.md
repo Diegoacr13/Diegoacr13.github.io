@@ -10,8 +10,6 @@ seo:
 
 ![Project preview](../../assets/images/puente-nichupte.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
-
 **Project Overview:**
 The Nichupté Vehicular Bridge in Cancún is a megaproject spanning over 11 km, connecting the urban area with the hotel zone, and is currently in its final load testing phase. Its management and analysis reveal both benefits in mobility and challenges in terms of cost and execution.
 
@@ -23,42 +21,40 @@ The Nichupté Vehicular Bridge in Cancún is a megaproject spanning over 11 km, 
 
 ## Features
 
-1. **AI-Powered Recipe Recommendations:**
+1. **Project Context:**
 
-- RoboChef analyzes users' taste preferences, dietary restrictions, and ingredient availability to suggest personalized recipes.
-- Machine learning algorithms continuously learn from user interactions, refining recommendations for an increasingly tailored experience.
+- Length: Over 11 km, the longest bridge over a lagoon in Mexico.
+- Location: Connects Luis Donaldo Colosio Boulevard with the Cancún hotel zone.
 
-2. **Ingredient Scanner and Inventory Management:**
+2. **Impact Analysis:**
 
-- Users can scan their pantry and refrigerator using the app's built-in ingredient scanner.
-- RoboChef provides recipe suggestions based on available ingredients and helps users manage their inventory by suggesting recipes that utilize soon-to-expire items.
+*Benefits:*
 
-3. **Step-by-Step Cooking Guide:**
+- Mobility: drastic reduction in travel times between the urban and hotel zones.
+- Capacity: designed to handle up to 20,000 vehicles daily.
+- Security: will feature intelligent systems connected to a C4 command center for real-time     monitoring.
+- Tourism: improves accessibility to the hotel zone, a key driver of the local economy.
 
-- Each recipe includes a detailed step-by-step cooking guide with interactive multimedia elements.
-- Users can watch video tutorials, view images, and receive real-time tips from RoboChef as they progress through each cooking stage.
+3. **Challenges:**
 
-4. **Nutritional Insights and Meal Planning:**
+- Cost overruns and irregularities: The Federal Auditor's Office identified discrepancies totaling more than 95 million pesos.
+- Delays: The project is more than two years behind schedule.
+- Massive databases
 
-- RoboChef provides nutritional information for each recipe, helping users make informed decisions about their meals.
-- The app offers meal planning features, allowing users to create weekly menus based on dietary goals and preferences.
-
-5. **Voice-Activated Assistance:**
-
-- Users can interact with RoboChef using voice commands for a hands-free cooking experience.
-- The AI assistant responds to queries, provides cooking tips, and adapts recipes based on user preferences.
 
 ## Technology Stack
 
-- Frontend: Flutter for a seamless cross-platform mobile app experience.
-- Backend: Django for handling server-side logic and API integration.
-- Database: PostgreSQL for efficient data storage and retrieval.
-- AI Integration: TensorFlow for machine learning models powering recipe recommendations.
+- Oracle: Databases, Calendars
+- Excel: Data and Programs
+- Python: Data Cleanup
+- Power BI: Dashboards
+- Synchro
+- Microsoft Office
 
-> Ethan Donovan possesses a rare blend of technical expertise and creative flair. They skillfully transformed our vague ideas into a visually stunning and highly functional website. The end result exceeded our expectations, and we continue to receive compliments on the design and user experience.
+> If you would like to find out more about the project and the implementation of technologies, you can look for [Vías Terrestres magazine #83 (32–40)](https://issuu.com/viasterrestres/docs/vt_83).
+
 
 ## Outcome
 
-RoboChef Recipe Assistant has revolutionized the way users approach cooking, making it an enjoyable and educational experience. The AI-powered features not only simplify the cooking process but also contribute to users' culinary growth, creating a personalized and evolving cooking journey.
+The Nichupté Bridge is a landmark project that will transform mobility in Cancún, but its management reveals tensions between the promised efficiency and the challenges of execution and transparency. For a professional analysis, it is important to highlight both the achievements (reduced construction times, technological integration) and the risks (cost overruns, delays, long-term sustainability).
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
