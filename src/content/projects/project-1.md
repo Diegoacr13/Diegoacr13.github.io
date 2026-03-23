@@ -43,7 +43,8 @@ The results provide actionable findings that support the design of a strong valu
 819
 
 **Reviews and average rating per book**
-´´´
+```text 
+
 book_id | title                                          | num_reviews | avg_rating
 -----------------------------------------------------------------------------------
 86      | Arrows of the Queen (Heralds of Valdemar #1)   | 2           | 5.00
@@ -53,7 +54,8 @@ book_id | title                                          | num_reviews | avg_rat
 136     | Captivating: Unveiling the Mystery of a Woman… | 2           | 5.00
 ...
 303     | Harvesting the Heart                           | 2           | 1.50
-´´´
+
+```text
 
 ## Final Conclusion
 
@@ -67,32 +69,16 @@ Author insight: Diana Gabaldon stands out with high ratings and strong reader en
 
 User behavior: Heavy raters contribute ~24 reviews each, providing valuable qualitative feedback and strengthening community interaction.
 
-## Features
+## Summary
 
-1. **EcoScore and Challenges:**
+The platform combines a modern catalog, leading publishers and authors, and an active community generating quality reviews.
+These findings support a value proposition focused on:
 
-- Users are assigned an EcoScore based on their sustainable activities and choices.
-- Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
+Highlighting impactful authors and publishers.
 
-2. **Personalized Eco-Goals:**
+Leveraging the reputation of top-rated titles.
 
-- Users can set and track personalized eco-goals, such as reducing plastic usage, conserving water, or choosing eco-friendly transportation.
-- The app provides tips and suggestions to help users achieve their goals.
-
-3. **Green Rewards Marketplace:**
-
-- EcoPoints earned through challenges and sustainable actions can be redeemed in a virtual Green Rewards Marketplace.
-- The marketplace offers discounts on eco-friendly products, services, and even contributions to environmental causes.
-
-4. **Community Hub:**
-
-- A community feature allows users to connect, share their eco-friendly achievements, and inspire others.
-- Users can join local eco-groups, organize clean-up events, and collaborate on sustainability projects.
-
-5. **EcoEducator AI Assistant:**
-
-- An AI-powered assistant, EcoEducator, provides personalized eco-tips, facts, and information based on users' preferences and habits.
-- Users can chat with EcoEducator for instant advice on sustainable living.
+Encouraging engaged users to enrich the collective experience
 
 ## Technology Stack
 
