@@ -34,7 +34,7 @@ The project highlights both technical skills in data analysis and the ability to
 - In *Cart → Purchase*, an anomaly was detected (A >100%), indicating direct purchases without going through the cart.  
 - In *Page → Purchase*, Group A had a slight advantage (51.5% vs. 50.4%), but the difference was not significant (p ≈ 0.286).  
 
-![Conversion Funnel A vs B](../../assets/images/path/funnel.jpg)  
+![Conversion Funnel A vs B]
 *Comparison of conversion rates between Group A and Group B.* 
 
 ## Final Conclusions of the A/B Experiment
