@@ -5,11 +5,11 @@ publishDate: 'Jan 2026'
 isFeatured: true
 seo:
   image:
-    src: '../../assets/images/project-1.jpg'
+    src: '../../assets/images/SQL.jpg'
     alt: Project preview
 ---
 
-![Project preview](../../assets/images/project-1.jpg)
+![Project preview](../../assets/images/SQL.jpg)
 
 **Project Overview:**
 The rapid growth of online book services during the COVID-19 pandemic highlighted the importance of data-driven strategies to improve user experience and strengthen catalog offerings.  
