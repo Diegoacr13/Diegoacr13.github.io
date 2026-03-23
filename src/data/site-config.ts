@@ -34,11 +34,11 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Resume',
-            href: 'file:///C:/Users/HP%20Victus/Desktop/Sprint/Sprint%209/CV%20DATA%20DACR_eng.pdf'
+            href: '/assets/CV/CV DATA DACR_eng.pdf'
         },
         {
-            text: 'CV',
-            href: 'file:///C:/Users/HP%20Victus/Desktop/Sprint/Sprint%209/Diego_Contreras_CV.pdf'
+            text: 'Currículum',
+            href: '/assets/CV/CV DATA DACR.pdf'
         }
     ],
     hero: {
