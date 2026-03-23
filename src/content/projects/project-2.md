@@ -55,6 +55,24 @@ The project highlights both technical skills in data analysis and the ability to
    - Group A showed a +2.23% uplift compared to Group B in final conversion.  
    - This improvement is not statistically significant, so we cannot conclude that the recommender system had a real impact on purchases.  
 
+   ## Outcome and Business Impact
+
+The experiment demonstrated that the new recommender system improved early engagement in the funnel (*Page → Cart*), but did not generate a statistically significant uplift in final purchases.  
+
+- **Why this matters:** The company aimed to validate whether personalization could drive at least +10% more conversions. While partial improvements were observed, the absence of significant impact at the purchase stage means the business case is not yet proven.  
+
+- **Key achievements:**  
+  - Confirmed the system’s potential to increase cart additions (+3.4% uplift, statistically significant).  
+  - Identified anomalies in purchase behavior (direct purchases bypassing cart), highlighting areas for data pipeline improvement.  
+  - Validated robustness of the sample size and methodology, ensuring reliable insights.  
+
+- **Business impact:**  
+  - The recommender system shows promise but requires further refinement before rollout.  
+  - Direct purchase anomalies must be addressed to ensure accurate funnel tracking.  
+  - Future experiments should expand geographic diversity to validate results beyond European users.  
+
+**In summary:** The project illustrates how rigorous data analysis can guide product decisions, ensuring that new features are tested critically before full deployment. It highlights both technical expertise and strategic thinking, bridging analytics with business outcomes.
+
 ## Technology Stack
 
 - **Programming Language:** Python  
@@ -63,11 +81,5 @@ The project highlights both technical skills in data analysis and the ability to
 - **Statistical Testing:** SciPy (z-test for proportions)  
 - **Environment:** Jupyter Notebook  
 - **Version Control:** Git/GitHub  
-
-
-
-## Outcome
-
-The new recommender system showed partial improvements in the funnel but did not achieve a statistically significant impact on final conversion. Further testing and adjustments are recommended to address anomalies and validate effectiveness.
 
 
