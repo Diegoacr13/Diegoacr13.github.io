@@ -31,6 +31,12 @@ The results provide actionable findings that support the design of a strong valu
 4. Find the author with the highest average rating (only considering books with at least 50 ratings).  
 5. Determine the average number of text reviews among users who rated more than 50 books.  
 
+## Methodology
+- Connected to the SQL database using **SQLAlchemy**.  
+- Validated table structures and printed sample rows.  
+- Wrote SQL queries for each analytical task.  
+- Used **Pandas** in Jupyter Notebook to store and display query results. 
+
 ## Features
 
 1. **EcoScore and Challenges:**
