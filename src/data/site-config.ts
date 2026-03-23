@@ -30,7 +30,7 @@ const siteConfig: SiteConfig = {
     socialLinks: [
         {
             text: 'Linkedin',
-            href: 'https://www.linkedin.com/in/diego-abraham-contreras-robles-677619252/'
+            href: 'https://www.linkedin.com/in/diego-a-contrerasr/'
         },
         {
             text: 'Resume',
