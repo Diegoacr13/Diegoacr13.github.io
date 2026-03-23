@@ -1,6 +1,7 @@
 ---
 title: 'Project: A/B Test – *Recommender System Test*'
 description: Analytical exercise for an international online store. The goal was to evaluate the introduction of an improved recommender system through an A/B test.
+publishDate: 'Nov 2025'
 isFeatured: true
 seo:
   image:
