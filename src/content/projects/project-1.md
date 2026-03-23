@@ -55,7 +55,7 @@ book_id | title                                          | num_reviews | avg_rat
 ...
 303     | Harvesting the Heart                           | 2           | 1.50
 
-```text
+```
 
 ## Final Conclusion
 
