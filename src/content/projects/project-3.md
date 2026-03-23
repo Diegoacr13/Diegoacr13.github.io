@@ -13,13 +13,13 @@ seo:
 **Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
 **Project Overview:**
-RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience. By combining machine learning with culinary expertise, RoboChef empowers users to explore a world of flavors, improve their cooking skills, and enjoy personalized recipe recommendations.
+The Nichupté Vehicular Bridge in Cancún is a megaproject spanning over 11 km, connecting the urban area with the hotel zone, and is currently in its final load testing phase. Its management and analysis reveal both benefits in mobility and challenges in terms of cost and execution.
 
 ## Objectives
 
-1. Develop a user-friendly mobile app that utilizes AI to provide personalized recipe suggestions based on user preferences, dietary restrictions, and available ingredients.
-2. Create an interactive cooking guide that assists users with step-by-step instructions, cooking tips, and real-time assistance.
-3. Implement a smart learning system that refines recommendations over time, adapting to users' taste preferences and dietary changes.
+1. Promote efficiency in project management: Implement dashboards and communication plans to improve team coordination and accelerate project timelines.
+2. Improve urban mobility: Reduce travel times between the urban and hotel zones of Cancún from 55–90 minutes to approximately 10 minutes.
+3. Minimize environmental impact: Implement the top-down construction method to protect Nichupté Lagoon and its ecosystems during construction.
 
 ## Features
 
