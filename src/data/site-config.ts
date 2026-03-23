@@ -34,11 +34,11 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Resume',
-            href: '/assets/CV/CV DATA DACR_eng.pdf'
+            href: '/CV/CV_DATA_DACR_eng.pdf'
         },
         {
             text: 'Currículum',
-            href: '/assets/CV/CV DATA DACR.pdf'
+            href: '/CV/CV_DATA_DACR.pdf'
         }
     ],
     hero: {
