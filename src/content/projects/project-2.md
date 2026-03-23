@@ -6,7 +6,6 @@ isFeatured: true
 seo:
   image:
     src: '../../assets/images/testab.jpg'
-    alt: Project preview
 ---
 
 ![Project preview](../../assets/images/testab.jpg)
