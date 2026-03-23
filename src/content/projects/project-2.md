@@ -5,11 +5,11 @@ publishDate: 'Nov 2025'
 isFeatured: true
 seo:
   image:
-    src: '../../assets/images/project-2.jpg'
+    src: '../../assets/images/testab.jpg'
     alt: Project preview
 ---
 
-![Project preview](../../assets/images/project-2.jpg)
+![Project preview](../../assets/images/testab.jpg)
 
 
 **Project Overview:**
