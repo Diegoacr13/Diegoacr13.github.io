@@ -65,24 +65,24 @@ Diana Gabaldon – 4.3 average rating (50 ratings)
 ## Conclusion
 
 Modern catalog: 819 books published after 2000 ensure relevance and attractiveness.
-
 Ratings & reviews: Titles range from perfect scores (5.0) to low ratings (1.5–2.0), enabling segmentation and recommendation strategies.
-
 Publisher dominance: Penguin Books leads with 42 substantial publications, a strategic partner for catalog enrichment.
-
 Author insight: Diana Gabaldon stands out with high ratings and strong reader engagement.
-
 User behavior: Heavy raters contribute ~24 reviews each, providing valuable qualitative feedback and strengthening community interaction.
+
+## Outcome and Impact
+This project was not only about running SQL queries, but about understanding how data can shape strategic decisions in an online book platform.  
+
+- **Why it was done:** To evaluate catalog relevance, identify key publishers/authors, and measure user engagement.  
+- **What was achieved:** Confirmed catalog modernity, identified Penguin Books as a leader, highlighted Diana Gabaldon as a trusted author, and measured active user contributions.  
+- **Impact:** These findings guide the platform to promote trusted authors/publishers, personalize recommendations using reputation scores, and incentivize active users to enrich community content.  
 
 ## Summary
 
 The platform combines a modern catalog, leading publishers and authors, and an active community generating quality reviews.
 These findings support a value proposition focused on:
-
 Highlighting impactful authors and publishers.
-
 Leveraging the reputation of top-rated titles.
-
 Encouraging engaged users to enrich the collective experience
 
 ## Technology Stack
@@ -91,4 +91,3 @@ Encouraging engaged users to enrich the collective experience
 - Backend: Firebase for real-time data synchronization and user authentication.
 - Database: Firestore for scalable and flexible data storage.
 - AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
-
