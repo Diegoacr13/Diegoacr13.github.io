@@ -1,11 +1,11 @@
 ---
-title: 'RoboChef - AI Powered Cooking Guide'
-description: RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience.
-publishDate: 'Oct 12 2023'
+title: 'Cancun-Nichupte Vehicular Bridge'
+description: Management and analysis of the construction of the Cancun-Nichupte vehicular bridge.
+publishDate: 'Jan  2023'
 isFeatured: true
 seo:
   image:
-    src: '../../assets/images/project-3.jpg'
+    src: '../../assets/images/puente-nichupte.jpg'
 ---
 
 ![Project preview](../../assets/images/project-3.jpg)
