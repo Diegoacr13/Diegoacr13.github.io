@@ -1,7 +1,7 @@
 ---
-title: 'NeuralPlaylist - AI Generated Music Recommendations'
-description: Leveraging advanced algorithms and machine learning, NeuralPlaylist crafts personalized music recommendations based on users' preferences, moods, and even biometric data.
-publishDate: 'Oct 19 2023'
+title: 'Telecom – Identifying Inefficient Operators'
+description: CallMeMaybe identifies inefficient call center operators through missed call ratios, waiting times, and outgoing activity, delivering actionable insights for performance optimization.
+publishDate: 'Jan 2026'
 seo:
   image:
     src: '../../assets/images/project-4.jpg'
@@ -9,53 +9,87 @@ seo:
 
 ![Project preview](../../assets/images/project-4.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
-**Project Overview:**
-NeuralPlaylist is a cutting-edge web application that redefines music discovery through the power of artificial intelligence. Leveraging advanced algorithms and machine learning, NeuralPlaylist crafts personalized music recommendations based on users' preferences, moods, and even biometric data.
+## Project Overview
+The virtual telephony service **CallMeMaybe** needed a way to provide supervisors with insights about inefficient operators.  
+An operator is considered inefficient if they:
+- Miss a high proportion of incoming calls (internal or external).  
+- Have long average waiting times for incoming calls.  
+- Perform very few outgoing calls (when expected to do so).  
+
+This project focused on exploratory data analysis, operator classification, and statistical validation to identify inefficiencies and provide actionable recommendations.
 
 ## Objectives
+1. Conduct exploratory data analysis of call records.  
+2. Define metrics per operator: missed call ratio, average waiting time, outgoing calls.  
+3. Establish statistical thresholds (percentiles) to classify operators as efficient or inefficient.  
+4. Rank inefficient operators by severity.  
+5. Validate differences using hypothesis testing.  
 
-1. Develop an intuitive and user-friendly web application that utilizes AI to curate personalized music playlists for users.
-2. Implement machine learning models that analyze user behavior, preferences, and physiological responses to create dynamic and context-aware music recommendations.
-3. Provide an immersive and interactive platform that enhances the music listening experience and introduces users to new genres and artists.
+## Methodology
+- **Data Cleaning:** Removed duplicates and normalized column names.  
+- **Exploration:** Calculated key metrics per operator.  
+- **Thresholds:** Applied p75 for missed calls and waiting time, p25 for outgoing calls.  
+- **Classification:** Flagged operators exceeding thresholds as inefficient.  
+- **Visualization:** Histograms, boxplots, bar charts, violin plots.  
+- **Hypothesis Testing:** Independent t-tests to confirm statistical differences.  
 
-## Features
+## Results
+- **Missed Calls:** Most operators had low ratios, but some reached up to **50% missed calls**.  
+![Distribution of Missed Calls](../../assets/images/missed_calls_histogram.png)
+- **Waiting Time:** Average waiting times varied widely, with outliers exceeding **1,000 seconds**.  
+![Boxplot of Waiting Times](../../assets/images/waiting_times_boxplot.png)
+- **Outgoing Calls:** A few operators performed tens of thousands of calls, while others had fewer than 20.  
+![Top 20 Operators by Outgoing Calls](../../assets/images/top20_outgoing.png)
 
-1. **Biometric Mood Analysis:**
+- **Ranking:** Top inefficient operators combined high missed ratios, long waiting times, and very low outgoing calls.  
 
-- NeuralPlaylist incorporates biometric data analysis to understand users' moods and emotional states.
-- The AI algorithms use facial recognition and heart rate data to curate playlists that match users' current emotional states.
+´´´
+operator_id  missed_ratio  avg_waiting_time  outgoing_calls  ineficaz
+287     913886.0      0.500000         13.500000             NaN      True
+467     934098.0      0.333333         31.800000             NaN      True
+109     897872.0      0.333333         21.666667            49.0      True
+497     937432.0      0.333333         12.000000            19.0      True
+185     904344.0      0.250000         27.500000             5.0      True
+431     930242.0      0.250000         17.250000             NaN      True
+265     910226.0      0.250000         16.500000             NaN      True
+80      894232.0      0.250000         14.333333            16.0      True
+338     919896.0      0.200000         17.500000             NaN      True
+33      888532.0      0.166667         32.111111           188.0      True
+´´´
+## Hypothesis Testing and Validation
+- **Missed Calls Ratio:** t = 8.45, p-value ≈ 7.7e-16 → significant difference.  
+- **Average Waiting Time:** t = 9.39, p-value ≈ 6.9e-19 → significant difference.  
 
-2. **Personalized Playlists:**
+Violin plots further confirm the differences: inefficient operators show higher medians and greater variability in both missed calls and waiting times.  
 
-- Users receive dynamic and highly personalized playlists based on their music history, preferences, and contextual factors.
-- NeuralPlaylist adapts to users' evolving tastes, introducing them to new genres and artists that align with their musical journey.
+![Comparison of Inefficient vs Efficient Operators](../../assets/images/violinplots.png)
 
-3. **Context-Aware Recommendations:**
+## Conclusion
+1. **Data Cleaning:** Datasets prepared for analysis.  
+2. **Exploration:** Key metrics identified (missed calls, waiting time, outgoing calls).  
+3. **Results:** Inefficient operators show much higher missed calls (up to 100%), longer waiting times, and very few outgoing calls.  
+4. **Validation:** Hypothesis tests confirmed significant differences. Visualizations reinforced findings.  
 
-- The application takes into account contextual factors such as time of day, weather, and location to tailor music recommendations.
-- Users receive playlists suited for specific occasions, moods, and environments.
+The classification of inefficient operators is backed by statistical and visual evidence. These operators show clearly inferior performance, justifying their identification as priority improvement targets.
 
-4. **Collaborative Playlists:**
+## Outcome and Impact
+- **Why it matters:** Inefficient operators reduce customer satisfaction and increase operational costs.  
+- **What was achieved:** A robust, percentile-based framework to classify inefficiency, validated statistically.  
+- **Impact:** Supervisors can now:  
+  - Target training for underperforming operators.  
+  - Redistribute workloads to balance efficiency.  
+  - Improve customer experience by reducing missed calls and wait times.  
 
-- NeuralPlaylist encourages social interaction by allowing users to create and share collaborative playlists with friends.
-- Friends can contribute to the playlist, creating a shared musical experience that adapts to the collective preferences of the group.
-
-5. **Real-Time Feedback Integration:**
-
-- Users can provide real-time feedback on song selections, allowing the AI to continuously refine recommendations.
-- The system learns from user interactions to enhance the accuracy of future music suggestions.
+This project demonstrates how **data-driven analysis transforms raw telecom metrics into actionable insights**, bridging technical execution with business outcomes.
 
 ## Technology Stack
 
-- Frontend: Vue.js for a dynamic and responsive user interface.
-- Backend: Flask for handling server-side logic and API integration.
-- Database: MongoDB for efficient storage and retrieval of user and music data.
-- AI Integration: PyTorch for developing machine learning models for music recommendation and biometric analysis.
+- **Programming Language:** Python  
+- **Libraries:** Pandas, NumPy, Seaborn, Matplotlib, SciPy  
+- **Environment:** Jupyter Notebook  
+- **Version Control:** Git/GitHub  
+- **Visualization Tools:** Tableau
 
-## Outcome
-
-NeuralPlaylist has redefined the music listening experience by harnessing the power of AI to provide users with hyper-personalized and context-aware playlists. The application not only adapts to users' musical preferences but also introduces them to new and exciting musical journeys based on their emotions and surroundings.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Additional Materials 
+- **Interactive Dashboard:** [Tableau](https://public.tableau.com/shared/5DD4789DS?:display_count=n&:origin=viz_share_link)
