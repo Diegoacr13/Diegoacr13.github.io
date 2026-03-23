@@ -1,61 +1,60 @@
 ---
-title: 'NeuralPlaylist - AI Generated Music Recommendations'
-description: Leveraging advanced algorithms and machine learning, NeuralPlaylist crafts personalized music recommendations based on users' preferences, moods, and even biometric data.
-publishDate: 'Oct 19 2023'
+title: 'Cancun-Nichupte Vehicular Bridge'
+description: Management and analysis of the construction of the Cancun-Nichupte vehicular bridge.
+publishDate: 'Jan  2023'
+isFeatured: true
 seo:
   image:
-    src: '../../assets/images/project-4.jpg'
+    src: '../../assets/images/puente-nichupte.jpg'
 ---
 
-![Project preview](../../assets/images/project-4.jpg)
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+![Project preview](../../assets/images/puente-nichupte.jpg)
 
 **Project Overview:**
-NeuralPlaylist is a cutting-edge web application that redefines music discovery through the power of artificial intelligence. Leveraging advanced algorithms and machine learning, NeuralPlaylist crafts personalized music recommendations based on users' preferences, moods, and even biometric data.
+The Nichupté Vehicular Bridge in Cancún is a megaproject spanning over 11 km, connecting the urban area with the hotel zone, and is currently in its final load testing phase. Its management and analysis reveal both benefits in mobility and challenges in terms of cost and execution.
 
 ## Objectives
 
-1. Develop an intuitive and user-friendly web application that utilizes AI to curate personalized music playlists for users.
-2. Implement machine learning models that analyze user behavior, preferences, and physiological responses to create dynamic and context-aware music recommendations.
-3. Provide an immersive and interactive platform that enhances the music listening experience and introduces users to new genres and artists.
+1. Promote efficiency in project management: Implement dashboards and communication plans to improve team coordination and accelerate project timelines.
+2. Improve urban mobility: Reduce travel times between the urban and hotel zones of Cancún from 55–90 minutes to approximately 10 minutes.
+3. Minimize environmental impact: Implement the top-down construction method to protect Nichupté Lagoon and its ecosystems during construction.
 
 ## Features
 
-1. **Biometric Mood Analysis:**
+1. **Project Context:**
 
-- NeuralPlaylist incorporates biometric data analysis to understand users' moods and emotional states.
-- The AI algorithms use facial recognition and heart rate data to curate playlists that match users' current emotional states.
+- Length: Over 11 km, the longest bridge over a lagoon in Mexico.
+- Location: Connects Luis Donaldo Colosio Boulevard with the Cancún hotel zone.
 
-2. **Personalized Playlists:**
+2. **Impact Analysis:**
 
-- Users receive dynamic and highly personalized playlists based on their music history, preferences, and contextual factors.
-- NeuralPlaylist adapts to users' evolving tastes, introducing them to new genres and artists that align with their musical journey.
+*Benefits:*
 
-3. **Context-Aware Recommendations:**
+- Mobility: drastic reduction in travel times between the urban and hotel zones.
+- Capacity: designed to handle up to 20,000 vehicles daily.
+- Security: will feature intelligent systems connected to a C4 command center for real-time     monitoring.
+- Tourism: improves accessibility to the hotel zone, a key driver of the local economy.
 
-- The application takes into account contextual factors such as time of day, weather, and location to tailor music recommendations.
-- Users receive playlists suited for specific occasions, moods, and environments.
+3. **Challenges:**
 
-4. **Collaborative Playlists:**
+- Cost overruns and irregularities: The Federal Auditor's Office identified discrepancies totaling more than 95 million pesos.
+- Delays: The project is more than two years behind schedule.
+- Massive databases
 
-- NeuralPlaylist encourages social interaction by allowing users to create and share collaborative playlists with friends.
-- Friends can contribute to the playlist, creating a shared musical experience that adapts to the collective preferences of the group.
-
-5. **Real-Time Feedback Integration:**
-
-- Users can provide real-time feedback on song selections, allowing the AI to continuously refine recommendations.
-- The system learns from user interactions to enhance the accuracy of future music suggestions.
 
 ## Technology Stack
 
-- Frontend: Vue.js for a dynamic and responsive user interface.
-- Backend: Flask for handling server-side logic and API integration.
-- Database: MongoDB for efficient storage and retrieval of user and music data.
-- AI Integration: PyTorch for developing machine learning models for music recommendation and biometric analysis.
+- Oracle: Databases, Calendars
+- Excel: Data and Programs
+- Python: Data Cleanup
+- Power BI: Dashboards
+- Synchro
+- Microsoft Office
+
+> If you would like to find out more about the project and the implementation of technologies, you can look for [Vías Terrestres magazine #83 (32–40)](https://issuu.com/viasterrestres/docs/vt_83).
+
 
 ## Outcome
 
-NeuralPlaylist has redefined the music listening experience by harnessing the power of AI to provide users with hyper-personalized and context-aware playlists. The application not only adapts to users' musical preferences but also introduces them to new and exciting musical journeys based on their emotions and surroundings.
+The Nichupté Bridge is a landmark project that will transform mobility in Cancún, but its management reveals tensions between the promised efficiency and the challenges of execution and transparency. For a professional analysis, it is important to highlight both the achievements (reduced construction times, technological integration) and the risks (cost overruns, delays, long-term sustainability).
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
