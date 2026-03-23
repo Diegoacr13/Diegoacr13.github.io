@@ -4,10 +4,10 @@ description: CallMeMaybe identifies inefficient call center operators through mi
 publishDate: 'Jan 2026'
 seo:
   image:
-    src: '../../assets/images/project-4.jpg'
+    src: '../../assets/images/Librerias.png'
 ---
 
-![Project preview](../../assets/images/project-4.jpg)
+![Project preview](../../assets/images/Librerias.png)
 
 
 ## Project Overview
