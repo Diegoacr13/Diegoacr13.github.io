@@ -5,10 +5,11 @@ publishDate: 'Nov 2025'
 isFeatured: true
 seo:
   image:
-    src: '../../assets/images/testab.png'
-    alt: Project preview
-    src: '../../assets/images/pathfunnel.png'
-    alt: Grafica Embudo
+    - src: '../../assets/images/testab.png'
+      alt: Project preview
+
+    - src: '../../assets/images/pathfunnel.png'
+      alt: Grafica Embudo
 ---
 
 ![Project preview](../../assets/images/testab.png)
