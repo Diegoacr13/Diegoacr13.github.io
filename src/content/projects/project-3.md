@@ -44,19 +44,21 @@ This project focused on exploratory data analysis, operator classification, and 
 
 - **Ranking:** Top inefficient operators combined high missed ratios, long waiting times, and very low outgoing calls.  
 
-´´´
-operator_id  missed_ratio  avg_waiting_time  outgoing_calls  ineficaz
-287     913886.0      0.500000         13.500000             NaN      True
-467     934098.0      0.333333         31.800000             NaN      True
-109     897872.0      0.333333         21.666667            49.0      True
-497     937432.0      0.333333         12.000000            19.0      True
-185     904344.0      0.250000         27.500000             5.0      True
-431     930242.0      0.250000         17.250000             NaN      True
-265     910226.0      0.250000         16.500000             NaN      True
-80      894232.0      0.250000         14.333333            16.0      True
-338     919896.0      0.200000         17.500000             NaN      True
-33      888532.0      0.166667         32.111111           188.0      True
-´´´
+"""
+operator_id | missed_ratio | avg_waiting_time | outgoing_calls | ineficaz
+-------------------------------------------------------------------------------
+287         | 913886.0     | 0.500000         | 13.500000      | NaN      | True
+467         | 934098.0     | 0.333333         | 31.800000      | NaN      | True
+109         | 897872.0     | 0.333333         | 21.666667      | 49.0     | True
+497         | 937432.0     | 0.333333         | 12.000000      | 19.0     | True
+185         | 904344.0     | 0.250000         | 27.500000      | 5.0      | True
+431         | 930242.0     | 0.250000         | 17.250000      | NaN      | True
+265         | 910226.0     | 0.250000         | 16.500000      | NaN      | True
+80          | 894232.0     | 0.250000         | 14.333333      | 16.0     | True
+338         | 919896.0     | 0.200000         | 17.500000      | NaN      | True
+33          | 888532.0     | 0.166667         | 32.111111      | 188.0    | True
+
+"""
 ## Hypothesis Testing and Validation
 - **Missed Calls Ratio:** t = 8.45, p-value ≈ 7.7e-16 → significant difference.  
 - **Average Waiting Time:** t = 9.39, p-value ≈ 6.9e-19 → significant difference.  
