@@ -85,9 +85,10 @@ Highlighting impactful authors and publishers.
 Leveraging the reputation of top-rated titles.
 Encouraging engaged users to enrich the collective experience
 
-## Technology Stack
+## Technology Stack 
 
-- Frontend: React Native for cross-platform mobile app development.
-- Backend: Firebase for real-time data synchronization and user authentication.
-- Database: Firestore for scalable and flexible data storage.
-- AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
+- **Database:** Relational database (MySQL / PostgreSQL) for transactional data storage and queries.  
+- **Query Language:** SQL for data extraction, joins, aggregations, and funnel construction.  
+- **Analysis Tools:** Statistical testing (z-test for proportions) to validate conversion uplift.  
+- **Visualization:** Dashboards and reports (Excel, Tableau, or Python libraries such as Matplotlib/Seaborn) to present insights clearly.  
+
