@@ -44,7 +44,7 @@ This project focused on exploratory data analysis, operator classification, and 
 
 - **Ranking:** Top inefficient operators combined high missed ratios, long waiting times, and very low outgoing calls.  
 
-```text 
+'''text 
 operator_id | missed_ratio | avg_waiting_time | outgoing_calls | ineficaz
 -------------------------------------------------------------------------------
 287         | 913886.0     | 0.500000         | 13.500000      | NaN      | True
@@ -58,7 +58,7 @@ operator_id | missed_ratio | avg_waiting_time | outgoing_calls | ineficaz
 338         | 919896.0     | 0.200000         | 17.500000      | NaN      | True
 33          | 888532.0     | 0.166667         | 32.111111      | 188.0    | True
 
-```
+'''
 
 ## Hypothesis Testing and Validation
 - **Missed Calls Ratio:** t = 8.45, p-value ≈ 7.7e-16 → significant difference.  
