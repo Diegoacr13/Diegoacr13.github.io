@@ -43,7 +43,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hi There & Welcome to My Portfolio',
-        text: "I'm Diego A. Contreras, Licensed architect and data analyst specialized in project management and process optimization.\n Expert in information visualization and team coordination, applying project management methodologies in construction and technology.\n Led the management of the Cancún–Nichupté bridge project, implementing dashboards and communication plans that improved collaboration and accelerated construction timelines.",
+        text: "I'm Diego A. Contreras, Data Analyst and Business Manager, specialized in project management and process optimization.\n Expert in information visualization and team coordination, applying project management methodologies in construction and technology.\n Led the management of the Cancún–Nichupté bridge project, implementing dashboards and communication plans that improved collaboration and accelerated construction timelines.",
 
         skills:[
           { name: "Python", icon: "🐍", desc: "Data cleaning, analysis, visualization (Pandas, NumPy, Matplotlib)" },
