@@ -46,12 +46,12 @@ const siteConfig: SiteConfig = {
         text: "I’m Diego A. Contreras, a Data Analyst specialized in operations and project management. I transform complex datasets into actionable insights that improve efficiency, reduce risks, and accelerate decision-making. In large-scale infrastructure projects like the Cancún–Nichupté bridge, I designed dashboards and reporting systems that cut reporting time by 20% and strengthened collaboration across teams.\n \n",
 
         skills:[
-          { name: "Python", icon: "🐍", desc: "Data cleaning, analysis, visualization (Pandas, NumPy, Matplotlib)" },
-          { name: "SQL", icon: "🗄️", desc: "Complex queries, database management, data extraction" },
-          { name: "Excel", icon: "📊", desc: "Advanced formulas, pivot tables, dashboards" },
-          { name: "Data Visualization", icon: "📈", desc: "Turning data into visual insights" },
-          { name: "Oracle", icon: "🧩", desc: "Database and data handling" },
-          { name: "Problem-Solving", icon: "🧠", desc: "Analytical thinking and accuracy" }
+          { name: "Python", icon: "🐍", desc: "Automated workflows and built predictive models (Pandas, NumPy, scikit-learn, XGBoost) to optimize processes and reduce reporting time by 20%" },
+          { name: "SQL", icon: "🗄️", desc: "Designed complex queries and optimized databases (PostgreSQL, MySQL) to extract KPIs and support strategic decisions" },
+          { name: "Excel", icon: "📊", desc: "Created dashboards and scenario analyses with advanced formulas and pivot tables to improve cost efficiency" },
+          { name: "Data Visualization", icon: "📈", desc: "Developed Tableau and Power BI dashboards that accelerated stakeholder reporting and improved collaboration across teams },
+          { name: "Oracle", icon: "🧩", desc: "Handled infrastructure project data, integrating timelines and risk analysis for construction management" },
+          { name: "Problem-Solving", icon: "🧠", desc: "Applied analytical thinking to anticipate risks, reduce delays, and optimize resource allocation" }
         ],
         image: {
             src: "/foto-perfil.png",
