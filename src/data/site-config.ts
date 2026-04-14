@@ -51,7 +51,7 @@ const siteConfig: SiteConfig = {
           { name: "Excel", icon: "📊", desc: "Created dashboards and scenario analyses with advanced formulas and pivot tables to improve cost efficiency" },
           { name: "Data Visualization", icon: "📈", desc: "Developed Tableau and Power BI dashboards that accelerated stakeholder reporting and improved collaboration across teams" },
           { name: "Oracle", icon: "🧩", desc: "Handled infrastructure project data, integrating timelines and risk analysis for construction management" },
-          { name: "Problem-Solving", icon: "🧠", desc: "Analytical thinking and accuracy" }
+          { name: "Problem-Solving", icon: "🧠", desc: "Applied analytical thinking to anticipate risks, reduce delays, and optimize resource allocation" }
         ],
         image: {
             src: "/foto-perfil.png",
