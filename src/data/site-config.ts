@@ -48,7 +48,7 @@ const siteConfig: SiteConfig = {
         skills:[
           { name: "Python", icon: "🐍", desc: "Automated workflows and built predictive models (Pandas, NumPy, scikit-learn, XGBoost) to optimize processes and reduce reporting time by 20%)" },
           { name: "SQL", icon: "🗄️", desc: "Designed complex queries and optimized databases (PostgreSQL, MySQL) to extract KPIs and support strategic decisions" },
-          { name: "Excel", icon: "📊", desc: "Advanced formulas, pivot tables, dashboards" },
+          { name: "Excel", icon: "📊", desc: "Created dashboards and scenario analyses with advanced formulas and pivot tables to improve cost efficiency" },
           { name: "Data Visualization", icon: "📈", desc: "Turning data into visual insights" },
           { name: "Oracle", icon: "🧩", desc: "Database and data handling" },
           { name: "Problem-Solving", icon: "🧠", desc: "Analytical thinking and accuracy" }
