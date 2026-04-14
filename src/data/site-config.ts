@@ -46,7 +46,7 @@ const siteConfig: SiteConfig = {
         text: "I’m Diego A. Contreras, a Data Analyst specialized in operations and project management. I transform complex datasets into actionable insights that improve efficiency, reduce risks, and accelerate decision-making. In large-scale infrastructure projects like the Cancún–Nichupté bridge, I designed dashboards and reporting systems that cut reporting time by 20% and strengthened collaboration across teams.\n \n",
 
         skills:[
-          { name: "Python", icon: "🐍", desc: "Data cleaning, analysis, visualization (Pandas, NumPy, Matplotlib)" },
+          { name: "Python", icon: "🐍", desc: "Automated workflows and built predictive models (Pandas, NumPy, scikit-learn, XGBoost) to optimize processes and reduce reporting time by 20%)" },
           { name: "SQL", icon: "🗄️", desc: "Complex queries, database management, data extraction" },
           { name: "Excel", icon: "📊", desc: "Advanced formulas, pivot tables, dashboards" },
           { name: "Data Visualization", icon: "📈", desc: "Turning data into visual insights" },
