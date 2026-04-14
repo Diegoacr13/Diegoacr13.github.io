@@ -50,7 +50,7 @@ const siteConfig: SiteConfig = {
           { name: "SQL", icon: "🗄️", desc: "Designed complex queries and optimized databases (PostgreSQL, MySQL) to extract KPIs and support strategic decisions" },
           { name: "Excel", icon: "📊", desc: "Created dashboards and scenario analyses with advanced formulas and pivot tables to improve cost efficiency" },
           { name: "Data Visualization", icon: "📈", desc: "Developed Tableau and Power BI dashboards that accelerated stakeholder reporting and improved collaboration across teams" },
-          { name: "Oracle", icon: "🧩", desc: "Database and data handling" },
+          { name: "Oracle", icon: "🧩", desc: "Handled infrastructure project data, integrating timelines and risk analysis for construction management" },
           { name: "Problem-Solving", icon: "🧠", desc: "Analytical thinking and accuracy" }
         ],
         image: {
